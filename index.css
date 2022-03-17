@@ -27,6 +27,36 @@ header{
     grid-template-columns: 90% 10%;
 }
 
+header #menu svg{
+    cursor: pointer;
+}
+
+header #menu #opcoes-menu{
+    display: none;
+    position: absolute;
+    background-color: var(--grey);
+    min-width: 130px;
+    z-index: 2;
+}
+
+header #menu #opcoes-menu a{
+    color: var(--green);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    display: block;
+    padding: 12px 16px;
+    text-align: left;
+    transition: background-color 0.4s;
+}
+
+header #menu #opcoes-menu a:hover {
+    background-color: #4a4957;
+}
+
+header #menu:hover #opcoes-menu {
+    display: block;
+}
+
 h1{
     font-size: 52px;
     margin-left: 68px;
