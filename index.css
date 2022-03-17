@@ -94,8 +94,7 @@ button{
     border-radius: 40px;
     border-style: solid;
     border-color: var(--grey);
-    margin-left: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 button:hover{
