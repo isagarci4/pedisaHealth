@@ -37,6 +37,7 @@ header #menu #opcoes-menu{
     background-color: var(--grey);
     min-width: 130px;
     z-index: 2;
+    border-radius: 10px;
 }
 
 header #menu #opcoes-menu a{
@@ -46,7 +47,9 @@ header #menu #opcoes-menu a{
     display: block;
     padding: 12px 16px;
     text-align: left;
+    text-decoration: none;
     transition: background-color 0.4s;
+    border-radius: 10px;
 }
 
 header #menu #opcoes-menu a:hover {
@@ -60,12 +63,12 @@ header #menu:hover #opcoes-menu {
 h1{
     font-size: 52px;
     margin-left: 68px;
-    margin-top: 42px;
+    margin-top: 20px;
 }
 
 #menu{
     margin-right: 102px;
-    margin-top: 67px;
+    margin-top: 34px;
 }
 
 .content{
@@ -76,10 +79,11 @@ h1{
 .container{
     font-size: 26px;
     margin-left: 68px;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 button{
+    cursor: pointer;
     width: 400px;
     height: 78px;
     background-color: var(--green);
@@ -90,7 +94,7 @@ button{
     border-radius: 40px;
     border-style: solid;
     border-color: var(--grey);
-    margin-left: 38px;
+    margin-left: 20px;
     margin-top: 40px;
 }
 
@@ -103,5 +107,5 @@ button:hover{
 
 #image{
     margin-left: 106px;
-    margin-top: 100px;
+    margin-top: 40px;
 }
