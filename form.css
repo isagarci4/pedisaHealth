@@ -1,0 +1,48 @@
+header{
+    position: absolute;
+    width: 1440px;
+    height: 119px;
+    left: 0px;
+    top: 0px;
+    background-color: #98ED71;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+body{
+   background-color: rgb(248, 248, 248);
+}
+
+h2{
+    font-family: monospace;
+}
+
+.all{
+    margin-left: 300px;
+    font-family: monospace;
+}
+
+.button{
+    font-family: monospace;
+    background-color: #98ED71;
+    font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    color: black;
+    height: 40px;
+    width: 200px;
+    padding-top: 13px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    text-align: center;
+    display: inline-block;
+    margin-left: 260px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.button:hover{
+   background-color: bisque;
+   color: black;
+}

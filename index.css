@@ -110,14 +110,6 @@ button:hover{
     margin-top: 40px;
 }
 
-footer{
-    width: 100%;
-    height: 100px;
-    background-color: var(--grey);
-    color: var(--background);
-    line-height: px;
-}
-
 #mapa{
     float: right;
 }
@@ -134,6 +126,7 @@ footer{
     display: flex;
     justify-content: center;
     padding: 52px;
+    font-size: 40px;
 
 }
 
@@ -168,7 +161,7 @@ input.--has-error{
     width: 200px;
     height: 40px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 
@@ -203,3 +196,10 @@ td{
     border-bottom-right-radius: 20px;
 }
 
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: var(--grey);
+    color: var(--background);
+    line-height: px;
+}
