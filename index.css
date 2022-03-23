@@ -18,6 +18,12 @@ body{
     font-family: 'DM Sans', sans-serif;
 }
 
+.cadastro{
+    background-color: var(--green);
+    height: 119px;
+}
+
+
 header{
     display: grid;
     grid-template-columns: 90% 10%;
@@ -77,7 +83,7 @@ h1{
     margin-top: 40px;
 }
 
-button{
+.btnCadastro{
     cursor: pointer;
     width: 400px;
     height: 78px;
@@ -115,3 +121,85 @@ footer{
 #mapa{
     float: right;
 }
+
+
+
+.segunda_section {
+    background-color:var(--green);
+    font-family: "DM Sans", sans-serif;
+}
+
+.text {
+    color:var(--gray);
+    display: flex;
+    justify-content: center;
+    padding: 52px;
+
+}
+
+.oque{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+p{
+    font-size: 26px;
+}
+
+.paragrafo2{
+    margin-top: 20px;
+}
+
+input{
+    border-radius: 20px;
+    
+}
+input.--has-error{
+    border-color:red;
+}
+
+
+.button_imc{
+    border: none;
+    background-color:var(--grey);
+    color: var(--green);
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+table{
+    margin-top: 20px;
+    margin-left: 65px;
+    border: 1px solid black;
+    border-radius:  20px;
+    width: 573px;
+    height: 400px;
+}
+td{
+    border: 1px solid black;
+    border-collapse: collapse;    
+    text-align: center;
+}
+
+.first_camp_left{
+    border-top-left-radius: 20px ;
+    
+}
+.first_camp_hight{
+    border-top-right-radius: 20px ;
+}
+
+.last_camp{
+    border-bottom-left-radius: 20px;
+}
+
+.last_camp_right{
+    border-bottom-right-radius: 20px;
+}
+

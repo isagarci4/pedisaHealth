@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,38 +10,41 @@
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
     <header>
         <h1>
             <img src="imgs/logo.svg" alt="">
         </h1>
-        
+
         <div id="menu">
             <svg width="65" height="47" viewBox="0 0 65 47" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="65" height="10.7429" rx="5.37143" fill="#98ED71"/>
-                <rect y="36.2571" width="65" height="10.7429" rx="5.37143" fill="#98ED71"/>
-                <rect y="18.1286" width="65" height="10.7429" rx="5.37143" fill="#98ED71"/>
+                <rect width="65" height="10.7429" rx="5.37143" fill="#98ED71" />
+                <rect y="36.2571" width="65" height="10.7429" rx="5.37143" fill="#98ED71" />
+                <rect y="18.1286" width="65" height="10.7429" rx="5.37143" fill="#98ED71" />
             </svg>
             <div id="opcoes-menu">
-                <a href="/index.html">HOME</a>
+                <a href="index.html">HOME</a>
                 <a href="#IMC">IMC</a>
                 <a href="./cadastro.html">CADASTRO</a>
             </div>
         </div>
 
-        
     </header>
 
     <div class="content">
         <main>
             <div class="container">
                 <section>
-                    <p>Lorem ipsum dolor sit amet. Qui magnam quae id quasi neque in accusamus doloremque. Ea soluta aperiam et consequuntur voluptas a accusantium iusto est doloremque quibusdam non itaque dolorum. Et consequuntur nisi et quidem corporis sed porro alias cum nemo earum 33 rerum debitis est enim amet!</p>
-                    <button>CADASTRE-SE</button>
+                    <p>Lorem ipsum dolor sit amet. Qui magnam quae id quasi neque in accusamus doloremque. Ea soluta
+                        aperiam et consequuntur voluptas a accusantium iusto est doloremque quibusdam non itaque
+                        dolorum. Et consequuntur nisi et quidem corporis sed porro alias cum nemo earum 33 rerum debitis
+                        est enim amet!</p>
+                    <button class="btnCadastro">CADASTRE-SE</button>
                 </section>
             </div>
         </main>
-    
+
 
         <div id="image">
             <section>
@@ -50,14 +54,80 @@
 
     </div>
 
-    <div class="content2">
+    <div class="content2" id="IMC">
+        <section class="segunda_section">
+            
+        <h2 class="text"> IMC </h2>
+        <div class="oque">
 
+            <table class="tabela">
+                <tr>
+                    <td class="first_camp_left">IMC</td>
+                    <td>CLASSIFICAÇÃO</td>
+                    <td class="first_camp_hight">OBESIDADE (GRAU)</td>
+                </tr>
+                <tr>
+                    <td>MENOR QUE 18,5</td>
+                    <td>MAGREZA</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>ENTRE 18,5 E 24,9</td>
+                    <td>NORMAL</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>ENTRE 25,0 E 29,9</td>
+                    <td>SOBREPESO</td>
+                    <td>I</td>
+                </tr>
+                <tr>
+                    <td>ENTRE 30,0 E 39,9</td>
+                    <td>OBESIDADE</td>
+                    <td>II</td>
+                </tr>
+                <tr>
+                    <td class="last_camp_left">MAIOR QUE 40,0</td>
+                    <td>OBESIDADE GRAVE</td>
+                    <td class="last_camp_right">III</td>
+            </table>
+
+            <div>
+                <h3>O QUE É?</h3>
+                <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para
+                    calcular o peso ideal de cada pessoa.</p>
+
+                <p class="paragrafo2">O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua
+                    altura
+                    elevada ao
+                    quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.
+                </p>
+                <h4> CALCULE SEU IMC:
+                    <span id="spnValor"></span>
+                </h4>
+                <span class="spanDeCalculo">
+                    <input id="txtPeso" type="number" placeholder="Peso">
+                    <input id="txtAltura" type="number" placeholder="Altura">
+                    <button id="btnCalculaIMC" class="button_imc">CALCULAR IMC</button>
+                </span>
+
+            </div>
+
+
+        </div>
+    </section>  
     </div>
 
     <footer>
         <div id="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.2619628236644!2d-46.78319968554029!3d-23.66658807137055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce53af46420527%3A0xeb99ed9009f47af6!2sUNASP%20SP!5e0!3m2!1spt-BR!2sbr!4v1647886089671!5m2!1spt-BR!2sbr" width="400" height="100" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.2619628236644!2d-46.78319968554029!3d-23.66658807137055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce53af46420527%3A0xeb99ed9009f47af6!2sUNASP%20SP!5e0!3m2!1spt-BR!2sbr!4v1647886089671!5m2!1spt-BR!2sbr"
+                width="400" height="100" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </footer>
+    <script src="index.js">
+
+    </script>
 </body>
+
 </html>
