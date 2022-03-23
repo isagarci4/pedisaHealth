@@ -117,15 +117,15 @@ button:hover{
 
 
 .segunda_section {
-    background-color:var(--green);
+    background-color: var(--green);
     font-family: "DM Sans", sans-serif;
 }
 
 .text {
-    color:var(--gray);
+    color: var(--grey);
     display: flex;
     justify-content: center;
-    padding: 52px;
+    padding: 40px;
     font-size: 40px;
 
 }
@@ -141,7 +141,7 @@ p{
 }
 
 .paragrafo2{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 input{
@@ -169,7 +169,7 @@ input.--has-error{
 .tabela{
     margin-top: 20px;
     margin-left: 65px;
-    border: 1px solid black;
+    border: 1px solid var(--grey);
     border-radius:  20px;
     width: 573px;
     height: 400px;
@@ -182,7 +182,7 @@ h2{
 }
 
 td{
-    border: 1px solid black;   
+    border: 1px solid var(--grey);   
     text-align: center;
 }
 
