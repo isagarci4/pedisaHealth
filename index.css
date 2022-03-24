@@ -146,6 +146,8 @@ p{
 
 input{
     border-radius: 20px;
+    border-style: none;
+    height: 36px;
     
 }
 input.--has-error{
@@ -175,6 +177,7 @@ input.--has-error{
     height: 400px;
     border-collapse: collapse;
 }
+
 .tabela tr:nth-child(even) {background-color: #f2f2f2;}
 
 h2{
@@ -185,8 +188,6 @@ td{
     border: 1px solid var(--grey);   
     text-align: center;
 }
-
-
 
 footer{
     width: 100%;
