@@ -123,9 +123,10 @@ button:hover {
 
 .text {
     color: var(--gray);
+    color: var(--grey);
     display: flex;
     justify-content: center;
-    padding: 52px;
+    padding: 40px;
     font-size: 40px;
 
 }
@@ -140,12 +141,20 @@ p {
     font-size: 26px;
 }
 
+
 .paragrafo2 {
     margin-top: 20px;
 }
 
 input {
     border-radius: 20px;
+    border-style: none;
+    height: 36px;
+
+}
+
+input.--has-error {
+    border-color: red;
 
 }
 
@@ -168,7 +177,7 @@ input {
 .tabela {
     margin-top: 20px;
     margin-left: 65px;
-    border: 1px solid black;
+    border: 1px solid var(--grey);
     border-radius: 20px;
     width: 573px;
     height: 400px;
@@ -185,6 +194,18 @@ td {
 }
 
 
+
+
+
+
+h2 {
+    font-size: 26px;
+}
+
+td {
+    border: 1px solid var(--grey);
+    text-align: center;
+}
 
 footer {
     width: 100%;

@@ -96,4 +96,6 @@ function validarCPF(cpf) {
     return true;
 }
 
+
 btnCalculaIMC && btnCalculaIMC.addEventListener('click', btnCalculaIMCClick);
+
