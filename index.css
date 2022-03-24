@@ -4,7 +4,6 @@ html {
     --background: #E6E6E6;
     --green: #77F14F;
     --grey: #2F2E41;
-
     box-sizing: border-box;
 }
 
@@ -22,7 +21,6 @@ body {
     background-color: var(--green);
     height: 119px;
 }
-
 
 header {
     display: grid;
@@ -102,7 +100,6 @@ button:hover {
     background: var(--grey);
     border-color: var(--green);
     color: var(--green);
-
 }
 
 #image {
@@ -113,8 +110,6 @@ button:hover {
 #mapa {
     float: right;
 }
-
-
 
 .segunda_section {
     background-color: var(--green);
@@ -128,13 +123,11 @@ button:hover {
     justify-content: center;
     padding: 40px;
     font-size: 40px;
-
 }
 
 .oque {
     display: grid;
     grid-template-columns: 50% 50%;
-
 }
 
 p {
@@ -150,16 +143,11 @@ input {
     border-radius: 20px;
     border-style: none;
     height: 36px;
-
 }
 
 input.--has-error {
     border-color: red;
-
 }
-
-
-
 
 .button_imc {
     border: none;
@@ -171,8 +159,6 @@ input.--has-error {
     margin-top: 10px;
     margin-bottom: 40px;
 }
-
-
 
 .tabela {
     margin-top: 20px;
@@ -192,11 +178,6 @@ td {
     border: 1px solid black;
     text-align: center;
 }
-
-
-
-
-
 
 h2 {
     font-size: 26px;

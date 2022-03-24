@@ -55,6 +55,10 @@ function enviarFormTest() {
         alert("CPF Inválido ou campo vázio");
         input.focus();
         input.classList.add('error');
+    } else {
+        input.classList.remove('error');
+        alert("Cadastro realizado, muito obrigado por fazer parte da PedisaHealth");
+
     }
 }
 
@@ -98,4 +102,3 @@ function validarCPF(cpf) {
 
 
 btnCalculaIMC && btnCalculaIMC.addEventListener('click', btnCalculaIMCClick);
-
