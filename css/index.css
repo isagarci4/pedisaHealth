@@ -91,6 +91,7 @@ input.--has-error {
     height: 40px;
     margin-top: 10px;
     margin-bottom: 40px;
+    cursor: pointer;
 }
 
 .tabela {
