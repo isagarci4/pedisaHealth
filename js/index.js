@@ -2,7 +2,7 @@ const txtPeso = document.getElementById("txtPeso");
 const txtAltura = document.getElementById("txtAltura");
 const btnCalculaIMC = document.getElementById("btnCalculaIMC");
 const spnValor = document.getElementById("spnValor");
-const input = document.getElementById("valida-cpf");
+const input = document.getElementById("cpf");
 
 function calcularValor(peso, altura) {
 
@@ -50,7 +50,7 @@ function validaCampos() {
 }
 
 function enviarFormTest() {
-    var cpf = document.getElementById("valida-cpf").value;
+    var cpf = document.getElementById("cpf").value;
     if (!validarCPF(cpf)) {
         alert("CPF Inválido ou campo vázio");
         input.focus();
