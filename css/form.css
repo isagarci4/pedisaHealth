@@ -54,12 +54,18 @@ select{
 
 .button{
     background-color: var(--green);
-    width: 399px;
-    height: 63px;
+    width: 300px;
+    height: 56px;
     border-radius: 40px;
     font-size: 24px;
     font-weight: bold;
     cursor: pointer;
     color: var(--grey);
     border-color: var(--grey);
+}
+
+.button:hover{
+    background-color: var(--grey);
+    color: var(--green);
+    border-color: var(--green);
 }
