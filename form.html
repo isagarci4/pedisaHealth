@@ -47,7 +47,7 @@
                     <input type="date" id="born" placeholder="Data de Nascimento">
 
                     <label class="sr-only" for="gender">Sexo</label>
-                    <select name="gender" id="gender">
+                    <select name="sexo" id="gender">
                         <option value="">Sexo</option>
                         <option value="feminino">Feminino</option>
                         <option value="masculino">Masculino</option>
@@ -69,7 +69,7 @@
 
                 <div class="input-form">
                     <label class="sr-only" for="cep">CEP</label>
-                    <input type="text" id="cep" class="--has-error" placeholder="CEP">
+                    <input type="text" id="cep" class="--has-error" placeholder="CEP" onblur="pesquisarEnderecoFech(this.value)">
 
                     <label class="sr-only" for="city">Cidade</label>
                     <input type="text" id="city" placeholder="Cidade">
@@ -81,13 +81,14 @@
                 </div>
 
                 <div class="button-form">
-                    <input id="enviarForm" type="button" class="button" value="CONCLUIR" onclick="enviarFormTest()">
+                    <input id="enviarForm" type="button" class="button" value="CONCLUIR" onclick="enviarFormTest()" onclick="salvarCadastro()">
                 </div>
             </form>
         </div>
     </main>
     
     <script src="js/index.js"></script>
+    <script src="API/api.js"></script>
 
 </body>
 </html>

@@ -33,7 +33,7 @@ select{
     height: 60px;
     border-radius: 20px;
     color: #74747c;
-    border-color: #e6e6e6;
+    border-color: #cec5c5;
     font-size: 16px;
     margin-top: 10px;
     border-style: groove;
@@ -60,9 +60,6 @@ select{
     font-size: 24px;
     font-weight: bold;
     cursor: pointer;
-}
-
-.backToHome{
     color: var(--grey);
-    text-decoration: none;
+    border-color: var(--grey);
 }
